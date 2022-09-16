@@ -1,0 +1,19 @@
+.main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.game_options_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.game_options {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

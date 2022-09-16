@@ -1,0 +1,22 @@
+.PokemonBox_wrapper button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+} .PokemonBox_wrapper button:hover {
+    transform: translateY(-10px);
+} .pokemon_image {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+} .PokemonBox_wrapper button p {
+    text-transform: capitalize;
+} .types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
