@@ -3,11 +3,14 @@ import { useRouter } from 'next/router'
 import axios from 'axios'
 import PokemonDisplayer from '../../Components/PokemonDisplayer'
 import Footer from '../../Components/Footer'
+import Navbar from '../../Components/Navbar'
 
 export default function Version({pokemonList}) {
   const router = useRouter()
   return (
     <div>
+        <Navbar />
+
         <Link href="/">
           <a>Home</a>
         </Link>

@@ -14,9 +14,6 @@ export default function TeamDisplayer({pokemonTeam , removePokemon}) {
                         <p key={"type" + index} id={pokemon.type.name}>{pokemon.type.name}</p>
                       ))}
                     </div>
-                      {/* {pokemon.stats.map((stats) => (
-                        <p key={stats.stat.name} id={stats.stat.name}>{stats.stat.name} : {stats.base_stat}</p>
-                      ))} */}
                 </button>
             </div>
         ))}
